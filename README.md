@@ -4,6 +4,7 @@
 - See https://github.com/tamberg/microbit-intro
 
 ## Attach the Grove adapter
+TODO
 
 ## Blink an LED
 TODO
