@@ -13,6 +13,7 @@ TODO
 <img src="images/servo.png" width="512" />
 
 ```
+let position = 90
 input.onButtonPressed(Button.A, function () {
     position = Math.max(position - 10, 0)
     servos.P0.setAngle(position)
@@ -21,7 +22,6 @@ input.onButtonPressed(Button.B, function () {
     position = Math.min(position + 10, 180)
     servos.P0.setAngle(position)
 })
-let position = 90
 ```
 
 ## Read a switch
