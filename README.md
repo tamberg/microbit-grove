@@ -14,9 +14,9 @@ Connect an LED to Grove Port *P0*.
 ```
 basic.forever(function () {
     pins.digitalWritePin(DigitalPin.P0, 1)
-    basic.pause(500)
+    basic.pause(500) // ms
     pins.digitalWritePin(DigitalPin.P0, 0)
-    basic.pause(500)
+    basic.pause(500) // ms
 })
 ```
 
@@ -24,7 +24,7 @@ basic.forever(function () {
 <img src="images/servo.png" width="512" />
 
 ```
-let position = 90
+let position = 90 // degrees
 input.onButtonPressed(Button.A, function () {
     position = Math.max(position - 10, 0)
     servos.P0.setAngle(position)
