@@ -7,7 +7,18 @@
 TODO
 
 ## Blink an LED
-TODO
+Connect an LED to Grove Port *P0*.
+
+<img src="images/grove-led.png" width="512" />
+
+```
+basic.forever(function () {
+    pins.digitalWritePin(DigitalPin.P0, 1)
+    basic.pause(500)
+    pins.digitalWritePin(DigitalPin.P0, 0)
+    basic.pause(500)
+})
+```
 
 ## Control a servo
 <img src="images/servo.png" width="512" />
