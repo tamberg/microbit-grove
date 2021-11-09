@@ -9,7 +9,7 @@ TODO
 ## Blink an LED
 TODO
 
-## Turn a servo
+## Control a servo
 <img src="images/servo.png" width="512" />
 
 ```
