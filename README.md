@@ -9,10 +9,19 @@ TODO
 ## Blink an LED
 TODO
 
+## Turn a servo
+TODO
+
 ## Read a switch
 TODO
 
-## Turn a servo
+## Read distance
+TODO
+
+## Read humidity
+TODO
+
+## Read temperature
 TODO
 
 ## More
