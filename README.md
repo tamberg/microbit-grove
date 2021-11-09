@@ -57,6 +57,11 @@ Connect a AHT20 sensor to Grove Port *P0*.
 
 TODO
 
+## Display a value
+Connect a 4-digit display to Grove Port *P0*.
+
+TODO
+
 ## More
 - https://github.com/tamberg/microbit-ghoust
 - https://makecode.microbit.org/projects
