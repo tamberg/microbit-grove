@@ -21,6 +21,8 @@ basic.forever(function () {
 ```
 
 ## Control a servo
+Connect a servo to Grove Port *P0*.
+
 <img src="images/servo.png" width="512" />
 
 ```
@@ -36,15 +38,23 @@ input.onButtonPressed(Button.B, function () {
 ```
 
 ## Read a switch
+Connect a switch to Grove Port *P0*.
+
 TODO
 
 ## Read distance
+Connect an ultrasonic sensor to Grove Port *P0*.
+
 TODO
 
 ## Read humidity
+Connect a AHT20 sensor to Grove Port *P0*.
+
 TODO
 
 ## Read temperature
+Connect a AHT20 sensor to Grove Port *P0*.
+
 TODO
 
 ## More
