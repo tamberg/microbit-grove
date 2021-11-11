@@ -1,7 +1,10 @@
-# Use Grove sensors and actuators with the micro:bit
+# Use Grove with the micro:bit
 
-## Get started
+## Get started with the micro:bit
 - See https://github.com/tamberg/microbit-intro
+
+## Grove sensors and actuators
+TODO
 
 ## Attach the Grove adapter
 TODO
