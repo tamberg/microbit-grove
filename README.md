@@ -43,7 +43,7 @@ Connect a switch to Grove Port *P0*.
 <img src="images/switch.png" width="512" />
 
 ```
-pins.onPulsed(DigitalPin.P2, PulseValue.High, function () {
+pins.onPulsed(DigitalPin.P0, PulseValue.High, function () {
     basic.showIcon(IconNames.Heart)
 })
 ```
