@@ -6,6 +6,9 @@
 ## Attach the Grove adapter
 TODO
 
+## Open the Grove extension
+TODO
+
 ## Blink an LED
 Connect an LED to Grove Port *P0*.
 
