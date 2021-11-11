@@ -40,7 +40,22 @@ input.onButtonPressed(Button.B, function () {
 ## Read a switch
 Connect a switch to Grove Port *P0*.
 
-TODO
+<img src="images/switch.png" width="512" />
+
+```
+pins.onPulsed(DigitalPin.P2, PulseValue.High, function () {
+    basic.showIcon(IconNames.Heart)
+})
+```
+
+or maybe
+
+```
+pins.onPulsed(DigitalPin.P0, PulseValue.Low, function () {
+    basic.showIcon(IconNames.Heart)
+})
+pins.setPull(DigitalPin.P0, PinPullMode.PullUp)
+```
 
 ## Read distance
 Connect an ultrasonic sensor to Grove Port *P0*.
