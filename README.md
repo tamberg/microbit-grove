@@ -60,7 +60,14 @@ TODO
 ## Display a value
 Connect a 4-digit display to Grove Port *P0*.
 
-TODO
+<img src="images/display.png" width="512" />
+
+```
+let display = grove.createDisplay(DigitalPin.P0, DigitalPin.P0)
+basic.forever(function () {
+    display.show(input.lightLevel())
+})
+```
 
 ## More
 - https://github.com/tamberg/microbit-ghoust
