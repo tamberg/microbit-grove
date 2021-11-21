@@ -54,15 +54,6 @@ pins.onPulsed(DigitalPin.P0, PulseValue.High, function () {
 })
 ```
 
-or maybe
-
-```
-pins.onPulsed(DigitalPin.P0, PulseValue.Low, function () {
-    basic.showIcon(IconNames.Heart)
-})
-pins.setPull(DigitalPin.P0, PinPullMode.PullUp)
-```
-
 ## Read distance
 Connect an ultrasonic sensor to Grove Port *P0*.
 
