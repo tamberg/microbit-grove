@@ -54,11 +54,18 @@ basic.forever(function () {
 })
 ```
 
-<img src="images/switch-pulse.png" width="512" />
+<img src="images/switch-state.png" width="512" />
 
 ```
+let state = 0
 pins.onPulsed(DigitalPin.P0, PulseValue.High, function () {
-    basic.showIcon(IconNames.Heart)
+    if (state == 0) {
+        basic.showIcon(IconNames.Heart)
+        state = 1
+    } else { // state == 1
+        basic.clearScreen()
+        state = 0
+    }
 })
 ```
 
