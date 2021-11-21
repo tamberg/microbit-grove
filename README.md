@@ -43,6 +43,19 @@ input.onButtonPressed(Button.B, function () {
 })
 ```
 
+## Display a value
+Connect a 4-digit display to Grove Port *P0*.
+
+<img src="images/display.png" width="512" />
+
+```
+let display = grove.createDisplay(DigitalPin.P0, DigitalPin.P14)
+basic.forever(function () {
+    display.show(input.temperature())
+    basic.pause(100)
+})
+```
+
 ## Read a switch
 Connect a switch to Grove Port *P0*.
 
@@ -70,9 +83,17 @@ pins.onPulsed(DigitalPin.P0, PulseValue.High, function () {
 ```
 
 ## Read distance
-Connect an ultrasonic sensor to Grove Port *P0*.
+Connect a 4-digit display to Grove Port *P0* and an ultrasonic sensor to Grove Port *P1*.
 
-TODO
+<img src="images/distance.png" width="512" />
+
+```
+let display = grove.createDisplay(DigitalPin.P0, DigitalPin.P14)
+basic.forever(function () {
+    display.show(grove.measureInCentimeters(DigitalPin.P1))
+    basic.pause(100)
+})
+```
 
 ## Read humidity
 Connect a AHT20 sensor to Grove Port *P0*.
@@ -83,19 +104,6 @@ TODO
 Connect a AHT20 sensor to Grove Port *P0*.
 
 TODO
-
-## Display a value
-Connect a 4-digit display to Grove Port *P0*.
-
-<img src="images/display.png" width="512" />
-
-```
-let display = grove.createDisplay(DigitalPin.P0, DigitalPin.P14)
-basic.forever(function () {
-    display.show(input.temperature())
-    basic.pause(100)
-})
-```
 
 ## More
 - https://github.com/tamberg/microbit-ghoust
