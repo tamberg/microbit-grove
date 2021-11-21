@@ -67,6 +67,9 @@ basic.forever(function () {
 })
 ```
 
+## Toggle a switch
+Connect a switch to Grove Port *P0*.
+
 <img src="images/switch-state.png" width="512" />
 
 ```
