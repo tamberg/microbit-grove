@@ -85,6 +85,19 @@ pins.onPulsed(DigitalPin.P0, PulseValue.High, function () {
 })
 ```
 
+## Read a dial
+Connect a 4-digit display to Grove Port *P0* and a rotary angle sensor to Grove Port *P1*.
+
+<img src="images/distance.png" width="512" />
+
+```
+let display = grove.createDisplay(DigitalPin.P0, DigitalPin.P14)
+basic.forever(function () {
+    display.show(pins.analogReadPin(AnalogPin.P1))
+    basic.pause(100)
+})
+```
+
 ## Read distance
 Connect a 4-digit display to Grove Port *P0* and an ultrasonic sensor to Grove Port *P1*.
 
