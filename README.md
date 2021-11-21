@@ -46,7 +46,15 @@ input.onButtonPressed(Button.B, function () {
 ## Read a switch
 Connect a switch to Grove Port *P0*.
 
-<img src="images/switch.png" width="512" />
+<img src="images/switch-value.png" width="512" />
+
+```
+basic.forever(function () {
+    basic.showNumber(pins.digitalReadPin(DigitalPin.P0))
+})
+```
+
+<img src="images/switch-pulse.png" width="512" />
 
 ```
 pins.onPulsed(DigitalPin.P0, PulseValue.High, function () {
