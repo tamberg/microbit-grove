@@ -84,9 +84,10 @@ Connect a 4-digit display to Grove Port *P0*.
 <img src="images/display.png" width="512" />
 
 ```
-let display = grove.createDisplay(DigitalPin.P0, DigitalPin.P0)
+let display = grove.createDisplay(DigitalPin.P0, DigitalPin.P14)
 basic.forever(function () {
-    display.show(input.lightLevel())
+    display.show(input.temperature())
+    basic.pause(100)
 })
 ```
 
