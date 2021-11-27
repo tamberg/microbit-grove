@@ -27,7 +27,7 @@ basic.forever(function () {
 ```
 
 ## Control a servo
-Connect a servo to Grove Port *P0*.
+Connect a servo to Grove Port *P0*, but power it with 5V.
 
 <img src="images/servo.png" width="512" />
 
