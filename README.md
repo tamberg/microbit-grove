@@ -15,7 +15,7 @@ And these actuators (or actors):
 - [4-digit display](https://www.seeedstudio.com/Grove-4-Digit-Display.html)
 - [Red LED](https://www.seeedstudio.com/Grove-Red-LED-p-1142.html)
 
-Plus an adapter:
+Plus this adapter:
 
 - [Grove adapter](https://www.seeedstudio.com/Grove-Shield-for-micro-bit-v2-0.html)
 
