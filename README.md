@@ -29,7 +29,7 @@ Make sure the micro:bit led matrix display faces towards you.
 TODO
 
 ## Blink an LED
-Connect an LED to Grove Port *P0*.
+Connect an [external LED](https://www.seeedstudio.com/Grove-Red-LED-p-1142.html) to Grove Port *P0*.
 
 <img src="images/grove-led.png" width="512" />
 
