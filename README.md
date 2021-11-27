@@ -60,7 +60,7 @@ input.onButtonPressed(Button.B, function () {
 ```
 
 ## Display a value
-Connect a 4-digit display to Grove Port *P0*.
+Connect a [4-digit display](https://www.seeedstudio.com/Grove-4-Digit-Display.html) to Grove Port *P0*.
 
 <img src="images/display.png" width="512" />
 
@@ -102,7 +102,7 @@ pins.onPulsed(DigitalPin.P0, PulseValue.High, function () {
 ```
 
 ## Read a dial
-Connect a 4-digit display to Grove Port *P0* and a rotary angle sensor to Grove Port *P1*.
+Connect a [4-digit display](https://www.seeedstudio.com/Grove-4-Digit-Display.html) to Grove Port *P0* and a [rotary angle sensor](https://www.seeedstudio.com/Grove-Rotary-Angle-Sensor-p-770.html) to Grove Port *P1*.
 
 <img src="images/distance.png" width="512" />
 
@@ -115,7 +115,7 @@ basic.forever(function () {
 ```
 
 ## Read distance
-Connect a 4-digit display to Grove Port *P0* and an ultrasonic ranger to Grove Port *P1*.
+Connect a [4-digit display](https://www.seeedstudio.com/Grove-4-Digit-Display.html) to Grove Port *P0* and an ultrasonic ranger to Grove Port *P1*.
 
 <img src="images/distance.png" width="512" />
 
