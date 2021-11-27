@@ -35,7 +35,7 @@ Type _grove_ to search for the extension.
 
 Click the _grove_ extension to add it.
 
-Now you've got the _Grove_ menu.
+Now you've got a _Grove_ menu.
 
 ## Blink an LED
 Connect an [external LED](https://www.seeedstudio.com/Grove-Red-LED-p-1142.html) to Grove Port *P0*.
