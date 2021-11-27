@@ -115,7 +115,7 @@ basic.forever(function () {
 ```
 
 ## Read distance
-Connect a [4-digit display](https://www.seeedstudio.com/Grove-4-Digit-Display.html) to Grove Port *P0* and an ultrasonic ranger to Grove Port *P1*.
+Connect a [4-digit display](https://www.seeedstudio.com/Grove-4-Digit-Display.html) to Grove Port *P0* and an [ultrasonic ranger](https://www.seeedstudio.com/Grove-Ultrasonic-Ranger-p-960.html) to Grove Port *P1*.
 
 <img src="images/distance.png" width="512" />
 
