@@ -11,13 +11,13 @@ This tutorial uses the following Grove sensors:
 - [Temperature & humidity sensor](https://wiki.seeedstudio.com/Grove-AHT20-I2C-Industrial-Grade-Temperature%26Humidity-Sensor/)
 - [Ultrasonic ranger](https://www.seeedstudio.com/Grove-Ultrasonic-Ranger-p-960.html)
 
-And these actuators (or actors):
+And these Grove actuators (or actors):
 
 - [4-digit display](https://www.seeedstudio.com/Grove-4-Digit-Display.html)
 - [Red LED](https://www.seeedstudio.com/Grove-Red-LED-p-1142.html)
 - [Servo](https://www.seeedstudio.com/Grove-Servo.html)
 
-Plus this adapter:
+Plus this Grove adapter:
 
 - [Grove adapter](https://www.seeedstudio.com/Grove-Shield-for-micro-bit-v2-0.html)
 
