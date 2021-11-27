@@ -112,14 +112,26 @@ basic.forever(function () {
 ```
 
 ## Read humidity
-Connect a AHT20 sensor to Grove Port *P0*.
+Connect a AHT20 sensor to Grove Port *I2C*.
 
-TODO
+<img src="images/humidity.png" width="512" />
+
+```
+basic.forever(function () {
+    basic.showNumber(grove.aht20ReadHumidity())
+})
+```
 
 ## Read temperature
-Connect a AHT20 sensor to Grove Port *P0*.
+Connect a AHT20 sensor to Grove Port *I2C*.
 
-TODO
+<img src="images/temperature.png" width="512" />
+
+```
+basic.forever(function () {
+    basic.showNumber(grove.aht20ReadTemperatureC())
+})
+```
 
 ## More
 - https://github.com/tamberg/microbit-ghoust
