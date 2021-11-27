@@ -9,6 +9,7 @@ This tutorial uses the following Grove sensors:
 - [Button switch](https://www.seeedstudio.com/Grove-Button-p-766.html)
 - [Rotary angle sensor](https://www.seeedstudio.com/Grove-Rotary-Angle-Sensor-p-770.html)
 - [Temperature & humidity sensor](https://wiki.seeedstudio.com/Grove-AHT20-I2C-Industrial-Grade-Temperature%26Humidity-Sensor/)
+- [Ultrasonic ranger](https://www.seeedstudio.com/Grove-Ultrasonic-Ranger-p-960.html)
 
 And these actuators (or actors):
 
