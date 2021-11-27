@@ -10,7 +10,7 @@ This tutorial uses the following Grove sensors:
 - [Rotary angle sensor](https://www.seeedstudio.com/Grove-Rotary-Angle-Sensor-p-770.html)
 - [Temperature & humidity sensor](https://wiki.seeedstudio.com/Grove-AHT20-I2C-Industrial-Grade-Temperature%26Humidity-Sensor/)
 
-And these actuators:
+And these actuators (or actors):
 
 - [4-digit display](https://www.seeedstudio.com/Grove-4-Digit-Display.html)
 - [Red LED](https://www.seeedstudio.com/Grove-Red-LED-p-1142.html)
