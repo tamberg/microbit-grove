@@ -19,7 +19,7 @@ And these actuators (or actors):
 
 Plus this adapter:
 
-- [Grove adapter](https://www.seeedstudio.com/Grove-Shield-for-micro-bit-v2-0.html) for micro:bit
+- [Grove adapter](https://www.seeedstudio.com/Grove-Shield-for-micro-bit-v2-0.html)
 
 ## Attach the Grove adapter
 Attach the micro:bit to the [Grove adapter](https://www.seeedstudio.com/Grove-Shield-for-micro-bit-v2-0.html) by sliding it into the connector.
