@@ -73,7 +73,7 @@ basic.forever(function () {
 ```
 
 ## Read a switch
-Connect a button switch to Grove Port *P0*.
+Connect a [button switch](https://www.seeedstudio.com/Grove-Button-p-766.html) to Grove Port *P0*.
 
 <img src="images/switch-value.png" width="512" />
 
@@ -84,7 +84,7 @@ basic.forever(function () {
 ```
 
 ## Toggle a switch
-Connect a button switch to Grove Port *P0*.
+Connect a [button switch](https://www.seeedstudio.com/Grove-Button-p-766.html) to Grove Port *P0*.
 
 <img src="images/switch-state.png" width="512" />
 
