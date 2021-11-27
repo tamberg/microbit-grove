@@ -10,7 +10,7 @@ This tutorial uses the following Grove sensors and actuators, plus an adapter:
 - [Rotary angle sensor](https://www.seeedstudio.com/Grove-Rotary-Angle-Sensor-p-770.html)
 - [Temperature & humidity sensor](https://wiki.seeedstudio.com/Grove-AHT20-I2C-Industrial-Grade-Temperature%26Humidity-Sensor/)
 - [4-digit display](https://www.seeedstudio.com/Grove-4-Digit-Display.html)
-- [Grove adapter](https://www.seeedstudio.com/Grove-Shield-for-micro-bit-v2-0.html) for micro:bit
+- [Grove adapter](https://www.seeedstudio.com/Grove-Shield-for-micro-bit-v2-0.html)
 
 ## Attach the Grove adapter
 Attach the micro:bit to the [Grove adapter](https://www.seeedstudio.com/Grove-Shield-for-micro-bit-v2-0.html) by sliding it into the connector.
