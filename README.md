@@ -15,6 +15,7 @@ And these actuators (or actors):
 
 - [4-digit display](https://www.seeedstudio.com/Grove-4-Digit-Display.html)
 - [Red LED](https://www.seeedstudio.com/Grove-Red-LED-p-1142.html)
+- [Servo](https://www.seeedstudio.com/Grove-Servo.html)
 
 Plus this adapter:
 
@@ -43,7 +44,7 @@ basic.forever(function () {
 ```
 
 ## Control a servo
-Connect a servo to Grove Port *P0*, but power it with 5V.
+Connect a [servo](https://www.seeedstudio.com/Grove-Servo.html) to Grove Port *P0*, but power it with 5V.
 
 <img src="images/servo.png" width="512" />
 
