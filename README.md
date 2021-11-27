@@ -128,7 +128,7 @@ basic.forever(function () {
 ```
 
 ## Read humidity
-Connect a AHT20 temperature & humidity sensor to Grove Port *I2C*.
+Connect a [temperature & humidity sensor](https://wiki.seeedstudio.com/Grove-AHT20-I2C-Industrial-Grade-Temperature%26Humidity-Sensor/) to Grove Port *I2C*.
 
 <img src="images/humidity.png" width="512" />
 
@@ -139,7 +139,7 @@ basic.forever(function () {
 ```
 
 ## Read temperature
-Connect a AHT20 temperature & humidity sensor to Grove Port *I2C*.
+Connect a [temperature & humidity sensor](https://wiki.seeedstudio.com/Grove-AHT20-I2C-Industrial-Grade-Temperature%26Humidity-Sensor/) sensor to Grove Port *I2C*.
 
 <img src="images/temperature.png" width="512" />
 
