@@ -27,9 +27,9 @@ Attach the micro:bit to the [Grove adapter](https://www.seeedstudio.com/Grove-Sh
 Make sure the micro:bit led matrix display faces towards you.
 
 ## Open the Grove extension
-In [MakeCode](https://makecode.microbit.org/) open a new project.
+Open the https://makecode.microbit.org/ editor.
 
-Scroll down and open the menu _Extensions_.
+Scroll down the menu and click _Extensions_.
 
 Type _grove_ to search for the extension.
 
