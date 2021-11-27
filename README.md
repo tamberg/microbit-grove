@@ -7,7 +7,9 @@
 TODO
 
 ## Attach the Grove adapter
-TODO
+Attach the micro:bit to the [Grove adapter](https://www.seeedstudio.com/Grove-Shield-for-micro-bit-v2-0.html).
+
+Make sure the micro:bit led matrix display faces towards you.
 
 ## Open the Grove extension
 TODO
