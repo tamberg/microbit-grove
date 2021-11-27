@@ -73,7 +73,7 @@ basic.forever(function () {
 ```
 
 ## Read a switch
-Connect a switch to Grove Port *P0*.
+Connect a button switch to Grove Port *P0*.
 
 <img src="images/switch-value.png" width="512" />
 
@@ -115,7 +115,7 @@ basic.forever(function () {
 ```
 
 ## Read distance
-Connect a 4-digit display to Grove Port *P0* and an ultrasonic sensor to Grove Port *P1*.
+Connect a 4-digit display to Grove Port *P0* and an ultrasonic ranger to Grove Port *P1*.
 
 <img src="images/distance.png" width="512" />
 
@@ -128,7 +128,7 @@ basic.forever(function () {
 ```
 
 ## Read humidity
-Connect a AHT20 sensor to Grove Port *I2C*.
+Connect a AHT20 temperature & humidity sensor to Grove Port *I2C*.
 
 <img src="images/humidity.png" width="512" />
 
@@ -139,7 +139,7 @@ basic.forever(function () {
 ```
 
 ## Read temperature
-Connect a AHT20 sensor to Grove Port *I2C*.
+Connect a AHT20 temperature & humidity sensor to Grove Port *I2C*.
 
 <img src="images/temperature.png" width="512" />
 
