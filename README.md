@@ -54,7 +54,7 @@ basic.forever(function () {
 ## Control a servo
 Connect a [servo](https://www.seeedstudio.com/Grove-Servo.html) to Grove Port *P0*, but power it with 5V.
 
-> This example requires a modification of the servo cable.
+> This example requires a hardware modification.
 
 <img src="images/servo.png" width="512" />
 
